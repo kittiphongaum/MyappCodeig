@@ -91,9 +91,9 @@
                   </div>
                   <div class="modal-body">
                         <div class="form-group row">
-                            <label class="col-md-2 col-form-label">Product Code</label>
+                            <label class="col-md-2 col-form-label">product_id</label>
                             <div class="col-md-10">
-                              <input type="text" name="product_code_edit" id="product_code_edit" class="form-control" placeholder="Product Code" readonly>
+                              <input type="text" name="product_code_edit" id="product_code_edit" class="form-control" placeholder="product_id" readonly>
                             </div>
                         </div>
                         <div class="form-group row">
