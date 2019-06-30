@@ -131,7 +131,7 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                       <strong>Are you sure to delete this record?</strong>
+                       <strong></strong>
                   </div>
                   <div class="modal-footer">
                     <input type="hidden" name="product_code_delete" id="product_code_delete" class="form-control">
@@ -244,7 +244,7 @@
             $('[name="product_code_delete"]').val(product_id);
         });
  
-        //delete record to database
+        //delete 
          $('#btn_delete').on('click',function(){
             var product_id = $('#product_code_delete').val();
             $.ajax({
