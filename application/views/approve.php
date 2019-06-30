@@ -235,7 +235,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <input type="text" value="" name="loan_status_id_add" id="loan_status_id_add">
+                  <input type="hidden" value="" name="loan_status_id_add" id="loan_status_id_add">
                   <div class="modal-body">
                     <div class="form-group row">
                       <label class="col-md-2 col-form-label">ประเภทผู้ขอสินเชื่อ</label>
